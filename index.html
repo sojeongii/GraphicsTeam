@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Protect the Planet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/statusbar.css">
+    <!--Libraries-->
+    <script src="js/three.js"></script>
+    <script src="js/world.js"></script>
+    <script src="js/game.js"></script>
+</head>
+<body onload="initGame()">
+    <div id="container"></div>
+    <div id="statusBar">
+        <div id="score">
+            <span>Score: </span>
+            <span id="scoreNumber">0</span>
+        </div>
+        <div id="instructions">
+            Protect Our Planet!
+        </div>
+        <div id="stage">
+            <span>Stage: </span>
+            <span id="stageNumber">0</span>
+        </div>
+    </div>
+    <div id = "startImage">
+        <div id = "img"><img src = "start.png" name = "start" width="1279px", height="567px"></div>
+        <div class="text" id = "text">
+            <p><h1 id = "red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WARNING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1></p>
+            <p><h2>Space trash drops are observed.</h2></p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p><h1 id = "red">MISSION</h1></p>
+            <p><h2>:Protect The Planet!</h2></p>
+        </div>
+    </div>
+</body>
+</html>
